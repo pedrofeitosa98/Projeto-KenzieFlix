@@ -46,15 +46,20 @@ h1{
     color: #fff;
 }
 
+.users{
+    width: 700px;
+}
+
 .usersList{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .usuario{
     width: 160px;
     height: 160px;
-    margin: 0px 13px 136px 13px;
+    margin-bottom: 136px;
 }
 
 .userImg{
